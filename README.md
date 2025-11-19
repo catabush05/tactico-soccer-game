@@ -13,6 +13,7 @@ The game is a level-based soccer game where the player attempts to progress the 
 The main level has 9 attacking players and 9 defending players. Currently, the difficulty of this level is far too high for a beginner level and needs to be simplified. That being said, it is a good proof of concept for this game and is fun every play through. 
 
 **Features:**  
+[Color Palette](https://coolors.co/abe188-f7ef99-f1bb87-f78e69-5d675b)
 Tutorial  
 Immersive UI with level selection screen  
 Audio/Music   
