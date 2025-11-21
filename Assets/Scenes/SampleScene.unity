@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 89826085}
   - component: {fileID: 89826087}
   - component: {fileID: 89826088}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: goalMouth
   m_TagString: Goal
   m_Icon: {fileID: 0}
@@ -328,7 +328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 111150375}
   - component: {fileID: 111150374}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Goal
   m_TagString: Goal
   m_Icon: {fileID: 0}
@@ -381,7 +381,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.21960784, g: 0.4627451, b: 0.11372549, a: 1}
   m_FlipX: 0
@@ -402,8 +402,8 @@ Transform:
   m_GameObject: {fileID: 111150373}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0335, y: 25.5059, z: 0}
-  m_LocalScale: {x: 20.593515, y: 1.6775936, z: 1}
+  m_LocalPosition: {x: -0.03929782, y: 25.598078, z: 0}
+  m_LocalScale: {x: 22.59418, y: 1.6775936, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 89826085}
@@ -1046,14 +1046,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 543675845}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de85430f149648cba95abd98c17c478, type: 3}
+  m_Script: {fileID: 11500000, guid: 4dd1d72ea18a547f9a9b9ad930e4c359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
   playerBounds: 2
-  playerMoveSpeed: 3
+  playerMoveSpeed: 5
   ballOffsetFromPlayer: 0.5
   ballControlDistance: 1
-  ballSpeed: 7
+  ballSpeed: 10
   uiDocument: {fileID: 1649160719}
   awayPlayerCatchDistance: 0.5
 --- !u!1 &619394800
@@ -2030,13 +2030,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1779941571}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a4da47238a5c4b52ae53cac30fc7f2d, type: 3}
+  m_Script: {fileID: 11500000, guid: add8a136f933f4371b484277753c1029, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::attackController
-  virtualCamera: {fileID: 0}
-  mainCamera: {fileID: 0}
+  virtualCamera: {fileID: 337602519}
+  mainCamera: {fileID: 519420031}
   moveSpeed: 1
-  activationDistance: 20
+  activationDistance: 15
 --- !u!1001 &1817845819
 PrefabInstance:
   m_ObjectHideFlags: 0
