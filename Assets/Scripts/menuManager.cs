@@ -1,8 +1,23 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 public class menuManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject tut;
+
+    void Start()
+    {
+        tut.SetActive(false);
+    }
+    public void LoadTutorial()
+    {
+        tut.SetActive(true);
+    }
+    public void CloseTutorial()
+    {
+        tut.SetActive(false);
+    }
     public void LoadGame1()
     {
         SceneManager.LoadScene(1);
